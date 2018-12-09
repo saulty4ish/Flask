@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Please sign in </title>
+</head>
+<body>
+{% if message %}
+<p style="color:red">{{message}}</p>
+{% endif %}
+<form action="/register" method="post">
+<legend>Please register:</legend>
+<p>姓名:<input name="username"></p>
+<p>密码:<input name="password"></p>
+<p><button type="submit">REGISTER</button></p>
+</form>
+</body>
+</html>
