@@ -1,3 +1,6 @@
+[源码](https://github.com/ZhangAiQiang/Flask/tree/master/flask-ssti%EF%BC%8Cxss%E7%9A%84%E9%98%B2%E6%AD%A2)
+     
+
 ```
 import uuid
 from flask import Flask, request, make_response, session,render_template, url_for, redirect, render_template_string
